@@ -2,6 +2,9 @@
   text-align: center;
 }
 
+body{
+  background-color: aquamarine;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +38,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.botao{
+  margin-left: 1%;
+  float: right;
+  width: 100px;
+  border: 2px solid cadetblue;
+  font-size: 17px;
+}
+
+.h1{
+text-align: center  ;
+}
+.li{
+  font-size: 21px;
+  font-family: cursive;
+}
+
+.container{
+  width: 50%;
+  /* background-color: aqua; */
+  display: grid;
+  align-items: center;
+  /* justify-content: center; */
+  margin: auto;
+}
+
+.favorito{
+  margin-left: 26px;
 }
